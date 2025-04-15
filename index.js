@@ -1,2 +1,5 @@
-console.log('hola mundo');
-console.log(globalThis);
+function saludar(nombre){
+	return `Hola ${nombre}`;
+}
+
+console.log(saludar("julio"));
