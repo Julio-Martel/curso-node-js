@@ -1,5 +1,4 @@
-const suma = require("./saludo.js");
+const {suma,resta} = require('./saludo.js');
 
-suma.suma(5,6);
-
-console.log(suma.suma(5,6));
+console.log(suma(4,6));
+console.log(resta(5,9));
