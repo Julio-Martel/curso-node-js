@@ -11,3 +11,8 @@ console.log(process.argv);
 
 // sirve para saber en que s.o estoy
 console.log(process.platform);
+
+// sirve para saber cuanta memoria estoy usando
+console.log(process.memoryUsage());
+
+/*se agregaran mas funcionalidades para la app*/
